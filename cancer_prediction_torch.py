@@ -178,7 +178,7 @@ def plot_curves(histories):
 
     fig.tight_layout()
     fig.savefig("cancer_training_torch_gpu.png", dpi=150)
-    print("saved training curve to cancer_training_torch_gpu.png")
+    print("saved training curve to cancer_training_torch.png")
 
 
 def main():

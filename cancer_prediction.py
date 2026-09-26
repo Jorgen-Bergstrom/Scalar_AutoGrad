@@ -35,8 +35,8 @@ import numpy as np
 from sklearn.datasets import load_breast_cancer
 from sklearn.model_selection import StratifiedKFold
 from sklearn.preprocessing import StandardScaler
-from scalar_autograd import Value
-from scalar_autograd.nn import MLP
+from engine import Value
+from nn import MLP
 
 # globals
 FOLDS = 5
