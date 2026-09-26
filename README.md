@@ -2,7 +2,7 @@
 
 A tiny reverse-mode automatic differentiation engine and a small neural-network
 library, written from scratch in pure Python. A complete `Value` type, an MLP,
-mini-batch SGD and a binary-classification example fit in a few hundred lines
+mini-batch SGD and a binary-classification example fit in a few hundred lines of Python code.
 
 ## Key Files
 * `engine.py`: Python class (`Value`) for scalar forward/backward autograd.
