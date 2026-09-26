@@ -1,12 +1,4 @@
-"""GPU version of `cancer_prediction_torch.py`.
-
-Identical to the CPU PyTorch version except for one idea: every tensor and the
-model are placed on `DEVICE`, which is CUDA when a GPU is available and CPU
-otherwise. The only differences from the CPU file are marked with `# DEVICE`.
-
-    model = MLP(...).to(DEVICE)                 # move the parameters
-    torch.as_tensor(..., device=DEVICE)         # move the data
-
+"""
 Teaching note
 -------------
 For a model this small (785 parameters, 397x30 inputs) the GPU is NOT the
@@ -177,7 +169,7 @@ def plot_curves(histories):
     ax.legend(loc="upper right")
 
     fig.tight_layout()
-    fig.savefig("cancer_training_torch_gpu.png", dpi=150)
+    fig.savefig("cancer_training_torch.png", dpi=150)
     print("saved training curve to cancer_training_torch.png")
 
 
