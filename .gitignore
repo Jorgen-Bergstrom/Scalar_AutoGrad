@@ -2,3 +2,7 @@ __pycache__/
 *.py[cod]
 .venv/
 *.png
+
+# C++ build/run artifacts
+cancer_prediction
+cancer_training_cpp.csv
